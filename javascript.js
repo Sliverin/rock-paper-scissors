@@ -16,6 +16,10 @@ function playRound(playerSelection, computerSelection) {
     else return loseStatement(computerSelection, playerSelection);
 }
 
-const playerSelection = 'rock';
+
+
+const playerSelection = function playerPlay() {
+    
+};
 const computerSelection = computerPlay();
 console.log(playRound(playerSelection, computerSelection));
